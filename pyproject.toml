@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ttf2bmp"
+version = "0.1.0"
+description = ""
+authors = ["te9yie <te9yie@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^10.1.0"
+
+[tool.poetry.scripts]
+ttf2bmp = "ttf2bmp.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
